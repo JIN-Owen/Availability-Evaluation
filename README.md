@@ -1,7 +1,3 @@
-# About
-Availability Evaluation of Industrial Internet of Things under Malware Propagation: 
-An Extended Reliability Block Diagram Approach Based on Stochastic Games
-
 # Introduction
 Source code for the paper entitled "Availability Evaluation of Industrial Internet of Things under Malware Propagation: 
 An Extended Reliability Block Diagram Approach Based on Stochastic Games" submitted to IEEE Transactions on Reliability for possible publication.
