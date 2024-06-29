@@ -8,7 +8,7 @@ from gym_idsgame.agents.dao.agent_type import AgentType
 from gym_idsgame.config.client_config import ClientConfig
 from gym_idsgame.config.hp_tuning_config import HpTuningConfig
 from gym_idsgame.runnner import Runner
-from experiments.util import plotting_util, util, tuning
+from experiments.util import plotting_util, util
 
 
 def get_script_path():
@@ -30,7 +30,7 @@ def default_config_path() -> str:
     """
     :return: the default path to configuration file
     """
-    config_path = os.path.join(default_output_dir(), './config.json')
+    config_path = os.path.join(default_output_dir(), 'config.json')
     return config_path
 
 def hp_tuning_config(client_config: ClientConfig) -> ClientConfig:

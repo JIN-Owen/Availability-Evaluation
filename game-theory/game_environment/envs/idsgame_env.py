@@ -678,7 +678,7 @@ class IdsGameEnv(gym.Env, ABC):
         """
         from gym_idsgame.envs.rendering.viewer import Viewer
         script_dir = os.path.dirname(__file__)
-        resource_path = os.path.join(script_dir, './rendering/', constants.RENDERING.RESOURCES_DIR)
+        resource_path = os.path.join(script_dir, 'rendering/', constants.RENDERING.RESOURCES_DIR)
         self.idsgame_config.render_config.resources_dir = resource_path
         self.viewer = Viewer(idsgame_config=self.idsgame_config)
         self.viewer.agent_start()

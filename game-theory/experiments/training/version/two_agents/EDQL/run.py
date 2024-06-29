@@ -29,7 +29,7 @@ def default_config_path() -> str:
     """
     :return: the default path to configuration file
     """
-    config_path = os.path.join(default_output_dir(), './config.json')
+    config_path = os.path.join(default_output_dir(), 'config.json')
     return config_path
 
 

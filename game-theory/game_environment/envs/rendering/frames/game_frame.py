@@ -95,7 +95,7 @@ class GameFrame(pyglet.window.Window):
             pyglet.resource.path = [self.idsgame_config.render_config.resources_dir]
         else:
             script_dir = os.path.dirname(__file__)
-            resource_path = os.path.join(script_dir, './', constants.RENDERING.RESOURCES_DIR)
+            resource_path = os.path.join(script_dir, '/', constants.RENDERING.RESOURCES_DIR)
             pyglet.resource.path = [resource_path]
         pyglet.resource.reindex()
 
